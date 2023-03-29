@@ -8,7 +8,6 @@ Created on Wed Mar  8 09:24:46 2023
 #%%
 #EX 1
 import numpy as np
-import math as mt
 import matplotlib.pyplot as plt
 
 #a)
