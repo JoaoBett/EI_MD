@@ -50,3 +50,13 @@ def autenticar_cartao2(nc):
          print('Cartao válido')
      else:
          print('Cartao inválido')
+
+#%%
+
+import networkx as nx
+
+arestas=[('X','Y'),('Y','W'),('X','Z'),('X','W'),('Z','Y'),('Z','W'),('Z','W')]
+
+G=nx.DiGraph(arestas)
+
+nx.draw_networkx(G, kwds)
