@@ -1,0 +1,78 @@
+Reticulado:
+	Complementar:
+		Se pelo menos um elemento não tiver complemento.
+
+	Distributivo:
+		Se pelo menos um elemento tiver mais do que um  			complemento, não é distributivo
+
+
+É reticulado pois para todo o a,b pertencente a A2, existe pelo menos um supremo entre a e b e um infimo entre a e b
+
+
+Algebra de Boole:
+	Reticulado
+	Distributivo
+	Complementar
+	Nº de elemntos = 2^n
+
+
+CPO (conjunto parcialmente ordenado)
+
+-Mostrar que é um conjunto parcialmente ordenado, cpo, mostrar que é reflexivo, transitivo e antissimetrico.
+
+Majorante: maior ou igual
+Minorante: Menor ou igual
+
+Supremo: menor dos majorantes
+Infimo: Maior dos minorantes
+
+Maximo: majorante que está no conjunto
+Minimo: minorante que está no conjunto
+
+Maximais: Quem não tem ninguém acima
+Minimais: Quem não tem ninguém abaixo
+
+
+RETICULADOS TÊM SEMPRE INFIMO E SUPREMO.
+
+
+
+Linguagens:
+
+A* - a linguagem toda com a palavra vazia
+
+A+ - a linguagem toda sem a palavra vazia
+
+Concatenar != União
+
+União juntar todos os conjuntos: {ab, aba....}
+Concatenar: {abab, ababa,...} como se fosse a multiplicação fator distributivo.
+
+Fecho de Kleene: L* = L^0 U L^1 U L^2....
+Fecho positio: L+ =L^1 U L^2 U L^3...
+
+Expressões regulares:
+	(ab)*
+	(ab)+ = ab(ab)*
+	(a V b)*
+
+Expressões não regulares:
+	(a ^ b)
+	(ab)+
+
+Automatos:
+	Determinista:
+		Todos os estados têm que sair o alfabeto todo
+	Completo:
+		Todos os estados têm que conseguir ler todo o 		alfabeto	
+Q=estados
+A=alfabeto
+q0 é o estado inicial
+F=estado final
+
+Quadro de estados:
+
+	a   |	b
+q0	q0	q1
+q1	q2	q1
+q2	q2	q2
