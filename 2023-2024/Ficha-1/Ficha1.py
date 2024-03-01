@@ -13,15 +13,15 @@ x = (35.6*64-7**3)/(45+5**2)
 print(x)
 
 #B
-y=(5/7)*4*(6**2)-((3**7)/(9**3)-236)
+y=(5/7)*4*(6**2)-((3**7)/((9**3)-236))
 print(y)
 
 #C
-z = ((3**2) * math.log10(76) / (7**3) + 54) + (910 ** (1/3))
+z = (((3**2) * math.log10(76)) / ((7**3) + 54) + (910 ** (1/3)))
 print(z)
 
 #D
-w = (math.cos((5*math.pi)/6)**2)*(math.sin((7*math.pi)/8)**2) + (math.tan((math.pi/6)*math.log(8, math.e))/math.sqrt(7))
+w = math.cos((5*math.pi)/6)**2 * math.sin((7*math.pi/8)**2) + math.tan((math.pi/6)*math.log(8))/math.sqrt(7)
 print(w)
 
 #2
@@ -35,9 +35,8 @@ b = math.sqrt(14*(X**3))/math.e**(3*X)
 print(b)
 
 #C
-c = math.log(abs((x**2)-(x**3)))
+c = math.log10(abs((X**2)-(X**3)))
 print(c)
-
 
 #3
 #A
@@ -76,5 +75,5 @@ expressoes = math.log(16) > 0
 print(expressoes)
 
 #B
-tangente = math.tan(45) > math.sin(90)
+tangente = math.tan(math.radians(45)) > math.sin(math.radians(90))
 print(tangente)
