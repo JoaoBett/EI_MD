@@ -81,7 +81,7 @@ len(Y.intersection(Z.union(W)))
 #%%
 #6
 
-Catarina = set(x for x in range(1, 411))
+Catarina = set(range(1, 411))
 
 #A
 counter = 0
