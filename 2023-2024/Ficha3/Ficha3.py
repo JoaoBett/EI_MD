@@ -108,7 +108,8 @@ for x in Catarina:
 #%%
 #7
 
-
+Lista_Atividades=["Futebol", "Ioga", "Cinema", "Futebol", "Concertos", "Cinema", "Concertos"]
+Conj_ativ = set(Lista_Atividades)
 
 
 #%%
@@ -116,7 +117,25 @@ for x in Catarina:
 O = {1,2,3,4}
 P = {{1},{2},{3,4}}
 
+u = set()
+for x in range(0, len(P)):
+    u = P[x]|u
+    
+if u == O:
+    cond1 = True
+else: 
+    cond1 = False
 
-
+cond2 = True
+for i in  range(0,len(P)):
+    for j in range(0,len(P)):
+       if i!=j and  P[i]&P[j] != set():
+           cond2 = False
+           print("Nao e particao")
+           break
+       
+if cond1 and cond2:
+    print("Particao")
+    
 #%%
 #9
